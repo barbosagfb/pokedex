@@ -1,0 +1,27 @@
+.pokedex-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.pagination{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.pokedex-grid{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+
+.loading{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
