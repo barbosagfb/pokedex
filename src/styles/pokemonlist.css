@@ -6,13 +6,37 @@
   display:flex;
   box-shadow: 4px 4px 4px (0,0,0,0.25);
   border-radius: 4px;
+  /* background:#e99f9f; */
+    padding: 60px;
+    background: rgba(122, 122, 122, 0.35);
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    /* transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; */
+}
+.pokecard:hover{
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 }
 
 .pokeimg{
-  width:70px;
-  height: 70px;
+  width:140px;
+  height: 140px;
   margin-right: 10px;
 }
+
+.poke-name{
+  font-size: 25px;
+}
+
+.poke-status{
+  display: grid;
+  flex-direction: row;
+  gap:5px;
+}
+
 .pokeimg-container{
   padding:0 5px;
 }
@@ -60,8 +84,43 @@ text-transform: capitalize;
 .pokemon-types{
   display: flex;
   gap: 10px;
+  justify-content:center;
 }
 
 .pokemon-type-text{
   text-transform: capitalize;
+  text-align: center;
+  text-justify: center;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width:70px;
+  height:30px;
+  /* padding: 4px 8px; */
+  cursor: pointer; 
+  font-size: 20px;
+  /* background-color: #91ff00; */
+}
+
+.bug { background-color: rgb(38, 236, 38) }
+.dark { background-color: rgb(51, 51, 51) }
+.dragon { background-color: rgb(13, 126, 126) }
+.electric { background-color: rgb(255, 208, 0) }
+.fairy { background-color: rgb(197, 93, 201) }
+.fighting { background-color: rgb(134, 9, 9) }
+.fire { background-color: rgb(238, 115, 0) }
+.flying { background-color: rgb(125, 159, 175) }
+.ghost { background-color: rgb(81, 19, 100) }
+.grass { background-color: rgb(12, 109, 56) }
+.ground { background-color: rgb(116, 88, 14) }
+.ice { background-color: rgb(80, 222, 247) }
+.normal { background-color: gray }
+.poison { background-color: rgb(179, 25, 179) }
+.psychic { background-color: rgb(235, 13, 161) }
+.rock { background-color: rgb(250, 177, 42) }
+.stell { background-color: rgb(37, 66, 73) }
+.water { background-color: rgb(11, 86, 148) }
+
+.pokemon-id{
+  font-size: 25px;
 }

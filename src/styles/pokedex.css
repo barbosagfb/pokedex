@@ -1,3 +1,9 @@
+.pokedex-title{
+  display: flex;
+  padding-left: 850px;
+}
+
+
 .pokedex-header{
   display: flex;
   flex-direction: row;
