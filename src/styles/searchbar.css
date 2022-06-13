@@ -2,8 +2,9 @@
 .searchbar-container{
   display:flex;
   margin: 0px auto;
-  padding:0 20px;
+  padding:20px 20px;
   align-items: center;
+  justify-content:flex-end;
 }
 
 .searchbar{
@@ -11,6 +12,7 @@
   margin-right: 20px;
 }
 .searchbar input{
+  font-size: 14px;
   padding: 10px;
   box-shadow: 0px 0px 2px (0,0,0,0.25);
   border-radius: 3px;

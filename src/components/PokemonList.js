@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import '../styles/pokemonlist.css';
 import FavoriteContext from '../contexts/favoritesContext';
-import { type } from "@testing-library/user-event/dist/type";
+// import { type } from "@testing-library/user-event/dist/type";
 
 export function PokemonList (props){
   const {pokemon} = props;
@@ -28,7 +28,7 @@ return (<div className="pokecard">
       </div>
       <div className="card-bottom">
       <div className="pokemon-type">
-        <div className="pokemon-types">{pokemon.types.map((type,index)=>{
+        <div className="pokemon-types">Tipo:{pokemon.types.map((type,index)=>{
           return ( 
           <div key={index} className={`pokemon-type-text ${type.type.name}`}>{type.type.name}</div>
           )
