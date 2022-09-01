@@ -1,9 +1,9 @@
 # <div align="center"> Pokemon React App</div>
                            
-<p align="center"> Pokedex made with React JS, Hooks,  consuming the pokeapi and using localstorage.</p>
+<p align="center"> Pokedex made with React JS, Hooks,Context for likes and consuming the pokeapi and using localstorage.</p>
 
 
-![Screenshot_1](/imgs/pokedex1.jpeg "Screenshot_1")![Screenshot_2](/imgs/pokedex2.jpeg "Screenshot_2")
+![Screenshot_1](/imgs/pokedex1.jpg "Screenshot_1")![Screenshot_2](/imgs/pokedex2.jpg "Screenshot_2")
 ## 🛠️ Technologies
 
 <ul>
